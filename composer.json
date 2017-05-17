@@ -25,5 +25,7 @@
     "psr-4": {
       "Ewall\\HelloWorld\\": ""
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
