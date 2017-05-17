@@ -1,0 +1,29 @@
+{
+  "name": "ewall/magento2-test-hello-world",
+  "description": "Magento 2 Test Composer HelloWorld Module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Ewallsolutions",
+      "email": "contact@ewallsolutions.com",
+      "homepage": "http://www.ewallsolutions.com",
+      "role": "Leader"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~1.0.0",
+    "jublonet/codebird-php":"3.2.0-beta.1"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Ewall\\HelloWorld\\": ""
+    }
+  }
+}
